@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+/* 基本設置 */
+html,
+body {
+  margin: 0px;
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  background-color: #fcf9ee;
+}
+h1 {
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  min-width: 300px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+/* 頭頂 */
+header {
+  background-color: #ffd06b;
+}
+
+var {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto 10px;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.click-heart {
+  display: inline-block;
+}
+
+#heart {
+  width: 20px;
+}
+
+#heart:hover {
+  cursor: pointer;
+}
+
+button.heart-click {
+  background: #ffd06b;
+  border: none;
+}
+
+/* 主內容 */
+
+main {
+  max-width: 1000px;
+  margin: 50px auto 0;
+}
+
+section {
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.work {
+  border: 2px solid gray;
+  padding: 0px 25px;
+  box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.2);
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
