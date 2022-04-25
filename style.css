@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  color : #0b1746 ;
+}
+
 /* 頭頂 */
 header {
   background-color: #ffd06b;
@@ -43,6 +47,7 @@ var {
 
 .click-heart {
   display: inline-block;
+  color : black ;
 }
 
 #heart {
