@@ -19,6 +19,10 @@ h2 {
   margin-bottom: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* 頭頂 */
 header {
   background-color: #ffd06b;
