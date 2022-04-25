@@ -37,6 +37,10 @@ var {
   justify-content: space-between;
 }
 
+.var-name {
+  color: black;
+}
+
 .click-heart {
   display: inline-block;
 }
